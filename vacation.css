@@ -75,6 +75,10 @@ div {
     font-weight: bold;
     padding-bottom: 3vw;
 }
+a{
+    color:darkblue;
+    text-decoration:none;
+}
 
 .todo {
     background-image: url(Glenstone-Lodge-Gatlinburg-Hotel-Gatlinburg-TN-Hotel-Short-Drive-to-Dollywood-1100x579.jpg);

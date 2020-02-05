@@ -1,0 +1,89 @@
+body {
+    margin: auto;
+    font-family: "Ariel", "Helvetica", sans-serif;
+    font-size: 100%;
+}
+
+/* container of the page*/
+div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Style the top navigation bar */
+.nava {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.nava a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.nava a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the content */
+
+main {
+    text-align: center;
+
+}
+
+header {
+
+    font-size: 6.5vw;
+    background-image: url(gatlinburg-sunrise.jpg);
+    background-size: cover;
+
+}
+
+.info > h2 {
+    font-size: 2.5vw;
+}
+
+h2 {
+    font-size: 5vw;
+    padding-bottom: 1.5vw;
+}
+
+h3 {
+    font-size: 4vw;
+    padding-bottom: 1.5vw;
+}
+
+p {
+    font-size: 3vw;
+    line-height: 4vw;
+    padding-bottom: 3vw;
+
+}
+
+div {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color:black;
+    font-weight: bold;
+    padding-bottom: 3vw;
+}
+
+.todo {
+    background-image: url(Glenstone-Lodge-Gatlinburg-Hotel-Gatlinburg-TN-Hotel-Short-Drive-to-Dollywood-1100x579.jpg);
+    background-size: cover;
+    background-blend-mode:darken;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
